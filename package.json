@@ -1,0 +1,27 @@
+{
+	"name": "franz-for-backlog",
+	"version": "0.1",
+	"description": "Backlog integration for Franz",
+	"main": "index.js",
+	"author": "Hiroyuki Ushito <iso2022jp@loafer.jp>",
+	"license": "MIT",
+	"config": {
+		"serviceURL": "http://{teamID}.backlog.jp/",
+		"serviceName": "Backlog",
+		"popup": [],
+		"hasTeamID": true,
+		"hasNotificationSound": false,
+		"hasIndirectMessages": false,
+		"message": "Backlog will make your daily tasks easier and more enjoyable, and lead your team to more enthusiasm for smoother project success.",
+		"wording": {
+			"url": "backlog.jp",
+			"team": "Backlog"
+		},
+		"webviewOptions": {
+			"disablewebsecurity": ""
+		},
+		"openDevTools": false,
+		"customURL": false,
+		"hostedOnly": false
+	}
+}
